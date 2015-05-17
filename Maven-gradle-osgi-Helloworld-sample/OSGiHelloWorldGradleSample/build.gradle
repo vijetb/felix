@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'osgi'
+
+sourceCompatibility = 1.7
+version = '0.0.1'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.felix:org.osgi.core:1.4.0'
+    compile 'org.osgi:org.osgi.compendium:5.0.0'
+}
+
+jar {
+	appendix = 'bundle'
+    manifest {
+    symbolicName = 'OSGi-Helloworld-sample-gradle'
+    
+    instruction 'Bundle-Description', 'A sample bundle to illustrate the HelloWorld program from Gradle plugin'
+    instruction 'Bundle-Activator', 'com.vijet.osgisample.helloworld.OSGiHelloWorldActivator'
+    instruction 'Import-Package', 'org.osgi.framework'
+    instruction 'Bundle-Vendor', 'Vijet (bvijet@gmail.com)'
+    }
+}

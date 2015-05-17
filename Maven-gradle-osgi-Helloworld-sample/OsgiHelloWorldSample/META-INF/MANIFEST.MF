@@ -1,0 +1,9 @@
+Manifest-Version: 1
+Bundle-Description: A sample bundle to illustrate the HelloWorld program from IDE manually
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi-Helloworld-sample
+Bundle-SymbolicName: com.vijet.osgisample.Helloworld
+Bundle-Activator: com.vijet.osgisample.helloworld.OSGiHelloWorldActivator
+Import-Package: org.osgi.framework
+Bundle-Vendor: Vijet (bvijet@gmail.com)
+Bundle-Version: 0.0.1
