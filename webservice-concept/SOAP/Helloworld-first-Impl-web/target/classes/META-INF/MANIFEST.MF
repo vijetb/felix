@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1433944295093
+Build-Jdk: 1.7.0_45
+Built-By: BMH1014669
+Bundle-Activator: com.vijet.osgisample.helloworld.firstimpl.HelloWorldFi
+ rstActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi-HelloWorld-Impl-WEB
+Bundle-SymbolicName: HelloWorld-Impl-first
+Bundle-Vendor: Vijet
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.vijet.osgisample.helloworld.firstimpl;version="0.0.1
+ ";uses:="com.vijet.osgisample.helloworldapi,org.osgi.framework"
+Import-Package: org.osgi.framework;version="[1.5,2)",com.vijet.osgisampl
+ e.helloworldapi;version="[0.0,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607
