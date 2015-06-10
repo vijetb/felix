@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1433950378424
+Build-Jdk: 1.7.0_45
+Built-By: BMH1014669
+Bundle-Activator: com.vijet.osgisample.eventconsumer.EventConsumerActiva
+ tor
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi-Sample-Event-Consumer
+Bundle-SymbolicName: OSGi-Sample-Event-Consumer
+Bundle-Vendor: Vijet
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.osgi.framework;version="[1.5,2)",org.osgi.service.ev
+ ent;version="[1.3,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-2.3.0.201405100607
