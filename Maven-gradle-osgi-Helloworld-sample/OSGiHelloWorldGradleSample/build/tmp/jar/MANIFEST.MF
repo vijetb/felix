@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: com.vijet.osgisample.helloworld;version="0.0.1";uses:=
+ "org.osgi.framework"
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: OSGiHelloWorldGradleSample
+Created-By: 1.7.0_45 (Oracle Corporation)
+Bundle-Vendor: Vijet (bvijet@gmail.com)
+Bundle-Version: 0.0.1
+Bnd-LastModified: 1431841267000
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.vijet.osgisample.helloworld.OSGiHelloWorldActiva
+ tor
+Bundle-Description: A sample bundle to illustrate the HelloWorld progr
+ am from Gradle plugin
+Import-Package: org.osgi.framework;version="[1.5,2)"
+Bundle-SymbolicName: OSGi-Helloworld-sample-gradle
+
