@@ -1,4 +1,4 @@
-#Synchronous Events
+#Asynchronous Events
 Events are in the form of key-value pairs. If an object needs be communicated between the bundles then it can be represented as String either by using XML or JSON, serializing and deserializing on either side.
 
 #### How it works ?
